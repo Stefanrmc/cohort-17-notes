@@ -10,8 +10,6 @@ def prompt_user_input_until_word_guessed(word_list: list[str]) -> str:
         number_guesses += 1
         return guess
 
-# No repeated letters, at least six letters long, case-insensitive
-
 
 def prompt_user_input_until_valid_str_entered() -> str:
     """Prompts user for input until they enter a string with at least six letters, none repeated, case-insensitive"""
